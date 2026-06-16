@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const SCRIPT_URL = "YOUR_GOOGLE_SCRIPT_URL";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxAbysgrYLQVyHkrH29WWxpA_LNMbf4xSkvRpSJt8u0MJ_M0twVQeZkmnDMwKU1S4zF/exec";
 
 const data = {
   name: "Shaik Saqib Hussain",
@@ -377,7 +377,7 @@ export default function Portfolio() {
           <ol style={{ marginTop:".5rem",marginLeft:"1.2rem",color:"#8892a4" }}>
             <li>Go to sheets.google.com → create a new sheet → click <strong>Extensions → Apps Script</strong></li>
             <li>Paste the Apps Script code (provided below the portfolio) → Deploy as Web App → Anyone</li>
-            <li>Copy the URL and replace <code style={{ background:"rgba(0,0,0,0.3)",padding:".1rem .4rem",borderRadius:3,color:"#4fa3e0" }}>YOUR_GOOGLE_SCRIPT_URL</code> at the top of the file</li>
+            <li>Copy the URL and replace <code style={{ background:"rgba(0,0,0,0.3)",padding:".1rem .4rem",borderRadius:3,color:"#4fa3e0" }}>https://script.google.com/macros/s/AKfycbxAbysgrYLQVyHkrH29WWxpA_LNMbf4xSkvRpSJt8u0MJ_M0twVQeZkmnDMwKU1S4zF/exec</code> at the top of the file</li>
           </ol>
         </div>
         <div style={{ ...S.contactLayout }}>
